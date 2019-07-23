@@ -25,7 +25,7 @@ import VirtualDom.Styled
 
 svgNamespace : Attribute msg
 svgNamespace =
-    VirtualDom.Styled.property "namespace" (Json.string "http://www.w3.org/2000/svg")
+    VirtualDom.Styled.property "namespaceURI" (Json.string "http://www.w3.org/2000/svg")
 
 
 {-| Works just like `Svg.node`, but you add a unique identifier to each child
